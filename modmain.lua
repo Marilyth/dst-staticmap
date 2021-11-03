@@ -1,4 +1,3 @@
-local Widget = require "widgets/widget"
 local Image = require "widgets/image"
 
 Assets = {
@@ -7,7 +6,6 @@ Assets = {
 
 local previousRotation = 0
 local lcontrols = nil
-local button = nil
 local charPointer = nil
 local x_res = GLOBAL.RESOLUTION_X
 local y_res = GLOBAL.RESOLUTION_Y
